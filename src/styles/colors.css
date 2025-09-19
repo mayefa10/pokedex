@@ -1,0 +1,90 @@
+/* Design System - Color Palette */
+:root {
+  /* Primary Colors */
+  --primary-red: #DC0A2D;
+  --primary-red-hover: #B8081F;
+  --primary-red-light: rgba(220, 10, 45, 0.1);
+
+  /* Pokemon Type Colors */
+  --type-bug: #A7B723;
+  --type-dark: #75574C;
+  --type-dragon: #7037FF;
+  --type-electric: #F9CF30;
+  --type-fairy: #E69EAC;
+  --type-fighting: #C12239;
+  --type-fire: #F57D31;
+  --type-flying: #A891EC;
+  --type-ghost: #70559B;
+  --type-normal: #AAA67F;
+  --type-grass: #74CB48;
+  --type-water: #6493EB;
+  --type-ground: #E2BF65;
+  --type-ice: #96D9D6;
+  --type-poison: #A33EA1;
+  --type-psychic: #F95587;
+  --type-rock: #B6A136;
+  --type-steel: #B7B7CE;
+
+  /* Grayscale */
+  --color-dark: #212121;
+  --color-medium: #666666;
+  --color-light: #E0E0E0;
+  --color-background: #EFEFEF;
+  --color-white: #FFFFFF;
+
+  /* Semantic Colors */
+  --color-success: #4CAF50;
+  --color-warning: #FF9800;
+  --color-error: #F44336;
+  --color-info: #2196F3;
+
+  /* Shadows and Effects */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.18);
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  /* Typography */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 40px;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow: 0.35s ease;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-dark: #FFFFFF;
+    --color-medium: #CCCCCC;
+    --color-light: #333333;
+    --color-background: #121212;
+    --color-white: #1E1E1E;
+  }
+}
